@@ -33,7 +33,7 @@ body {
     font-size: 1.2rem;
     padding: 20px 27px;
     display: flex;
-    justify-content: space-beetween;
+    justify-content: space-between;
 }
 
 .play-board {
@@ -41,7 +41,7 @@ body {
     width: 100%;
     display: grid;
     background: #212837;
-    grid-template: repeat(30, 1fr) / reapeatt(30, 1fr);
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
 
 .play-board .food {
@@ -67,10 +67,10 @@ body {
     border-right: 1px solid #171B26;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 2000px) {
     .wrapper {
-        width: 90vmin;
-        height: 115vmin;
+        width: 65vmin;
+        height: 90vmin;
     }
 
     .game-details {
